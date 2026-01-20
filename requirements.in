@@ -1,0 +1,39 @@
+# --- Core data stack ---
+numpy
+pandas
+scipy
+
+# --- Synthetic data generation ---
+faker
+
+# --- Record linkage / string similarity helpers ---
+rapidfuzz
+jellyfish
+
+# --- ML / experimentation ---
+scikit-learn
+
+# --- Visualization ---
+matplotlib
+seaborn
+
+# --- Notebooks / dev quality-of-life (optional but common) ---
+jupyterlab
+ipykernel
+python-dotenv
+tqdm
+
+# --- Writing/reading common formats (optional) ---
+pyarrow
+fastparquet
+
+# --- Dev tooling (optional but recommended) ---
+ruff
+black
+pytest
+nbstripout
+
+# --- Snowflake connectivity (optional; include if you will load/query Snowflake from Python) ---
+snowflake-connector-python
+snowflake-sqlalchemy
+SQLAlchemy
