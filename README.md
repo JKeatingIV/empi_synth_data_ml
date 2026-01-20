@@ -50,6 +50,14 @@ py -3.11 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+To ensure Jupyter notebooks use the project's Python environment, create a named IPython kernelspec (optional):
+
+```powershell
+python -m ipykernel install --user --name "synth-empi" --display-name "Python (synth-empi)"
+```
+
+Select the `Python (synth-empi)` kernel in Jupyter or VS Code when opening notebooks.
+
 If the `py` launcher is not available, ensure that the `python` command on PATH points to Python 3.11 and use `python -m venv .venv` instead.
 
 ## Notes
